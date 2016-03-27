@@ -1,0 +1,49 @@
+#viewport {
+    margin: 50px auto 0;
+    width: 800px;
+    text-align: center;
+}
+
+.pd0 {
+    margin-bottom: 50px;
+}
+.pd0 .custom {
+    margin-left: -0.5em;
+}
+.pd0 label input {
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+.pagination {
+    margin: 10px 0;
+    text-align: center;
+}
+.pagination a {
+    display: inline-block;
+    vertical-align: top;
+    color: hsl(214, 50%, 50%);
+    border: 1px solid hsl(214, 50%, 50%);
+    min-width: 30px;
+    height: 30px;
+    padding: 3px;
+    line-height: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+}
+.pagination a:hover {
+    background: hsl(214, 80%, 95%);
+}
+.pagination a.nav {
+    padding: 3px 12px;
+}
+.pagination a.current {
+    color: white;
+    background: hsl(214, 50%, 50%);
+}
+.pagination a.disabled {
+    color: hsl(0, 0%, 70%);
+    background: hsl(0, 0%, 96%);
+    border-color: hsl(0, 0%, 80%);
+    cursor: not-allowed;
+}
